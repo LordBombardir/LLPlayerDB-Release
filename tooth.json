@@ -1,0 +1,50 @@
+{
+    "format_version": 3,
+    "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
+    "tooth": "github.com/LordBombardir/LLPlayerDB-Release",
+    "version": "1.0.0",
+    "info": {
+        "name": "PlayerDB",
+        "description": "The database of players for LeviLamina.",
+        "tags": [
+            "platform:levilamina",
+            "type:mod"
+        ]
+    },
+    "variants": [
+        {
+            "label": "",
+            "platform": "win-x64",
+            "dependencies": {
+                "github.com/LiteLDev/LeviLamina": ">=1.3.1"
+            },
+            "assets": [
+                {
+                    "type": "zip",
+                    "urls": [
+                        "https://{{tooth}}/releases/download/v{{version}}/LLPlayerDB-Release-windows-x64.zip"
+                    ],
+                    "placements": [
+                        {
+                            "type": "dir",
+                            "src": "PlayerDB/",
+                            "dest": "plugins/PlayerDB/"
+                        }
+                    ]
+                }
+            ],
+            "preserve_files": [],
+            "remove_files": [],
+            "scripts": {
+                "pre_install": [],
+                "install": [],
+                "post_install": [],
+                "pre_pack": [],
+                "post_pack": [],
+                "pre_uninstall": [],
+                "uninstall": [],
+                "post_uninstall": []
+            }
+        }
+    ]
+}
