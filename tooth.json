@@ -22,7 +22,7 @@
                 {
                     "type": "zip",
                     "urls": [
-                        "https://{{tooth}}/releases/download/v{{version}}/LLPlayerDB-Release-windows-x64.zip"
+                        "https://{{tooth}}/releases/download/v{{version}}/LLPlayerDB-windows-x64.zip"
                     ],
                     "placements": [
                         {
