@@ -1,6 +1,7 @@
 #pragma once
 
 #include "DeviceOS.h"
+
 #include <mc/platform/UUID.h>
 #include <string>
 
@@ -23,8 +24,6 @@ struct PlayerEntry {
     std::string                latestDeviceModel;
     std::string                latestSelfSignedId;
     std::string                latestPlayFabId; // (LoginPacket "mid") MasterPlayfabId
-    std::string                latestAccountPlayfabId; // (LoginPacket "sub") TitleAccountPlayfabId
-    std::optional<std::string> latestTitleId;
 };
 
 } // namespace player_db::types

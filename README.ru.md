@@ -168,16 +168,6 @@ flowchart LR
     <td align="center"><code>std::string latestPlayFabId</code></td>
     <td align="center">Последний PlayFabId клиента</td>
   </tr>
-  <tr>
-    <th align="center">18</th>
-    <td align="center"><code>std::string latestAccountPlayfabId</code></td>
-    <td align="center">Последний TitleAccountPlayfabId клиента</td>
-  </tr>
-  <tr>
-    <th align="center">19</th>
-    <td align="center"><code>std::optional&lt;std::string&gt; latestTitleId</code></td>
-    <td align="center">Последний TitleId клиента</td>
-  </tr>
 </table>
 </div>
 
@@ -252,14 +242,9 @@ flowchart LR
   <tr>
     <th align="center">16</th>
     <td align="center">—</td>
+  </tr>
   <tr>
     <th align="center">17</th>
-    <td align="center">—</td>
-  <tr>
-    <th align="center">18</th>
-    <td align="center">—</td>
-  <tr>
-    <th align="center">19</th>
     <td align="center">—</td>
   </tr>
 </table>

@@ -168,16 +168,6 @@ The database is an SQLite3 file controlled by the library [sqlite_orm](https://g
     <td align="center"><code>std::string latestPlayFabId</code></td>
     <td align="center">Latest PlayFabId of the client</td>
   </tr>
-  <tr>
-    <th align="center">18</th>
-    <td align="center"><code>std::string latestAccountPlayfabId</code></td>
-    <td align="center">Latest TitleAccountPlayfabId of the client</td>
-  </tr>
-  <tr>
-    <th align="center">19</th>
-    <td align="center"><code>std::optional&lt;std::string&gt; latestTitleId</code></td>
-    <td align="center">Latest TitleId of the client</td>
-  </tr>
 </table>
 </div>
 
@@ -252,14 +242,9 @@ The database is an SQLite3 file controlled by the library [sqlite_orm](https://g
   <tr>
     <th align="center">16</th>
     <td align="center">—</td>
+  </tr>
   <tr>
     <th align="center">17</th>
-    <td align="center">—</td>
-  <tr>
-    <th align="center">18</th>
-    <td align="center">—</td>
-  <tr>
-    <th align="center">19</th>
     <td align="center">—</td>
   </tr>
 </table>
